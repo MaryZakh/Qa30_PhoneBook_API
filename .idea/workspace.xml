@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49eda4ff-7ddf-42ae-9bd3-43e03d3860f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/DeleteContactByIDRA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/GetAllContactsTestsRA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/UpdateExistContactRA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +92,7 @@
     "Gradle.RegistrationTestsRA.registrationWrongEmail.executor": "Run",
     "Gradle.RegistrationTestsRA.registrationWrongPassword.executor": "Run",
     "Gradle.Tests in 'Qa30_PhoneBook_API.test'.executor": "Run",
+    "Gradle.UpdateExistContactRA.updateExistContactSuccess.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -100,7 +100,7 @@
     "last_opened_file_path": "D:/Qa30/Qa30_PhoneBook_API"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.DeleteContactByIDRA">
+  <component name="RunManager" selected="Gradle.UpdateExistContactRA.updateExistContactSuccess">
     <configuration name="DeleteContactByIDRA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -197,7 +197,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTestsRA.loginSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UpdateExistContactRA.updateExistContactSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -210,7 +210,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;restassured.LoginTestsRA.loginSuccess&quot;" />
+            <option value="&quot;restassured.UpdateExistContactRA.updateExistContactSuccess&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -223,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UpdateExistContactRA.updateExistContactSuccess" />
+        <item itemvalue="Gradle.GetAllContactsTestsRA.getAllContactsSuccess" />
         <item itemvalue="Gradle.DeleteContactByIDRA" />
         <item itemvalue="Gradle.DeleteContactByIDRA.deleteContactByIDWrongToken" />
         <item itemvalue="Gradle.DeleteContactByIDRA.deleteContactByIDSuccess" />
-        <item itemvalue="Gradle.GetAllContactsTestsRA.getAllContactsSuccess" />
-        <item itemvalue="Gradle.LoginTestsRA.loginSuccess" />
       </list>
     </recent_temporary>
   </component>
