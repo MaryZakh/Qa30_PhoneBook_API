@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49eda4ff-7ddf-42ae-9bd3-43e03d3860f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/LoginTestsRA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/RegistrationTestsRA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/DeleteContactByIDRA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/GetAllContactsTestsRA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/okhttp/DeleteContactByIDTestOkhttp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/okhttp/DeleteContactByIDTestOkhttp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/java/okhttp/DeleteContactByIDOkHttp.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/restassured/RegistrationTestsRA.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -70,6 +68,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.DeleteContactByIDOkHttp.DeleteContactByIDSuccess.executor": "Run",
+    "Gradle.DeleteContactByIDRA.deleteContactByIDSuccess.executor": "Run",
+    "Gradle.DeleteContactByIDRA.deleteContactByIDWrongToken.executor": "Run",
+    "Gradle.DeleteContactByIDRA.executor": "Run",
     "Gradle.DeleteContactByIDTestOkhttp.DeleteContactByIDNotFound.executor": "Run",
     "Gradle.DeleteContactByIDTestOkhttp.DeleteContactByIDSuccess.executor": "Run",
     "Gradle.DeleteContactByIDTestOkhttp.DeleteContactByIDWrongToken.executor": "Run",
@@ -77,6 +78,7 @@
     "Gradle.GetAllContactsTestsOkhttp.executor": "Run",
     "Gradle.GetAllContactsTestsOkhttp.getAllContactsSuccess.executor": "Run",
     "Gradle.GetAllContactsTestsOkhttp.getAllContactsWrongToken.executor": "Run",
+    "Gradle.GetAllContactsTestsRA.getAllContactsSuccess.executor": "Run",
     "Gradle.LoginTestsOkhttp.executor": "Run",
     "Gradle.LoginTestsOkhttp.loginSuccess.executor": "Run",
     "Gradle.LoginTestsOkhttp.loginUnregisteredUser.executor": "Run",
@@ -86,6 +88,7 @@
     "Gradle.LoginTestsRA.loginSuccess.executor": "Run",
     "Gradle.LoginTestsRA.loginWrongEmail.executor": "Run",
     "Gradle.LoginTestsRA.loginWrongEmailFormat.executor": "Run",
+    "Gradle.RegistrationTestsRA.executor": "Run",
     "Gradle.RegistrationTestsRA.registrationSuccess.executor": "Run",
     "Gradle.RegistrationTestsRA.registrationWrongEmail.executor": "Run",
     "Gradle.RegistrationTestsRA.registrationWrongPassword.executor": "Run",
@@ -97,8 +100,8 @@
     "last_opened_file_path": "D:/Qa30/Qa30_PhoneBook_API"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.RegistrationTestsRA">
-    <configuration name="LoginTestsRA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.DeleteContactByIDRA">
+    <configuration name="DeleteContactByIDRA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -111,7 +114,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;restassured.LoginTestsRA&quot;" />
+            <option value="&quot;restassured.DeleteContactByIDRA&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -122,7 +125,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTestsRA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DeleteContactByIDRA.deleteContactByIDSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -135,7 +138,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;restassured.RegistrationTestsRA&quot;" />
+            <option value="&quot;restassured.DeleteContactByIDRA.deleteContactByIDSuccess&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -146,7 +149,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTestsRA.registrationSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DeleteContactByIDRA.deleteContactByIDWrongToken" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -159,7 +162,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;restassured.RegistrationTestsRA.registrationSuccess&quot;" />
+            <option value="&quot;restassured.DeleteContactByIDRA.deleteContactByIDWrongToken&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -170,7 +173,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTestsRA.registrationWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GetAllContactsTestsRA.getAllContactsSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -183,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;restassured.RegistrationTestsRA.registrationWrongEmail&quot;" />
+            <option value="&quot;restassured.GetAllContactsTestsRA.getAllContactsSuccess&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -194,7 +197,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTestsRA.registrationWrongPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTestsRA.loginSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -207,7 +210,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;restassured.RegistrationTestsRA.registrationWrongPassword&quot;" />
+            <option value="&quot;restassured.LoginTestsRA.loginSuccess&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -220,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RegistrationTestsRA" />
-        <item itemvalue="Gradle.RegistrationTestsRA.registrationWrongPassword" />
-        <item itemvalue="Gradle.RegistrationTestsRA.registrationWrongEmail" />
-        <item itemvalue="Gradle.RegistrationTestsRA.registrationSuccess" />
-        <item itemvalue="Gradle.LoginTestsRA" />
+        <item itemvalue="Gradle.DeleteContactByIDRA" />
+        <item itemvalue="Gradle.DeleteContactByIDRA.deleteContactByIDWrongToken" />
+        <item itemvalue="Gradle.DeleteContactByIDRA.deleteContactByIDSuccess" />
+        <item itemvalue="Gradle.GetAllContactsTestsRA.getAllContactsSuccess" />
+        <item itemvalue="Gradle.LoginTestsRA.loginSuccess" />
       </list>
     </recent_temporary>
   </component>
